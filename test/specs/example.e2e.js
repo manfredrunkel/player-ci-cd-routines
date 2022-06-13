@@ -2,7 +2,7 @@
 describe('StreamApp Test', () => {
 
     it('Login into the application with credentials', async () => {
-        await browser.url(`/index.html`);
+        await browser.url(`index.html`);
 
         const userInput = await $('#user');
         await userInput.setValue('streamapp@bitmovin.com');
